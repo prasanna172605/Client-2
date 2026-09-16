@@ -4,7 +4,7 @@ import { ArrowRight, ChevronLeft, ChevronRight, CheckCircle2 } from 'lucide-reac
 const slides = [
   {
     id: 1,
-    image: '/images/project-500-west.jpg',
+    image: import.meta.env.BASE_URL + 'images/project-500-west.jpg',
     kicker: 'THE ONE STOP DESTINATION',
     title: 'State of the Art Rebar Detailing & Estimation Services',
     subtitle: 'Providing precision shop placing drawings, bar bending schedules, and accurate take-offs for structural engineers, fabricators, and general contractors globally.',
@@ -12,7 +12,7 @@ const slides = [
   },
   {
     id: 2,
-    image: '/images/project-atlantic-station.jpg',
+    image: import.meta.env.BASE_URL + 'images/project-atlantic-station.jpg',
     kicker: 'ENGINEERING EFFICIENCY & INTEGRITY',
     title: 'Precision BBS & Automated Cutting Lists to Jobsite',
     subtitle: 'Streamlined digital workflows eliminate data entry errors. Direct electronic transfer of bending data to automated shear lines guarantees millimeter accuracy.',
@@ -20,7 +20,7 @@ const slides = [
   },
   {
     id: 3,
-    image: '/images/service-rebar-detailing.jpg',
+    image: import.meta.env.BASE_URL + 'images/service-rebar-detailing.jpg',
     kicker: 'GLOBAL DELIVERY CAPABILITY',
     title: 'Dependable Partner for Tight Construction Schedules',
     subtitle: 'Trusted across the USA, Europe, Middle East, and Asia-Pacific. Fast turnaround, 24/7 technical queries support, and competitive tender takeoffs.',
