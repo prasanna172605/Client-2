@@ -1,0 +1,6 @@
+{
+  "name": "Accuquant Services",
+  "description": "The one stop destination for state of art Rebar detailing and estimation services for structural engineers, fabricators, general contractors and designers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
