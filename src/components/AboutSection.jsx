@@ -12,7 +12,7 @@ export default function AboutSection({ onOpenQuote }) {
             <div className="about-image-wrapper">
               <div className="image-zoom-frame">
                 <img 
-                  src="/images/service-concrete-estimation.jpg" 
+                  src={`${import.meta.env.BASE_URL}images/service-concrete-estimation.jpg`} 
                   alt="Rebar Detailing & Engineering Team at Work" 
                   className="about-main-img img-hover-zoom"
                 />

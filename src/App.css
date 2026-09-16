@@ -340,6 +340,9 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  /* Add a warm fallback gradient to prevent harsh black flashes while images load */
+  background-color: var(--dark-bg);
+  background-image: linear-gradient(135deg, rgba(24, 26, 29, 1) 0%, rgba(35, 38, 42, 1) 100%);
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.8s ease-in-out, transform 8s ease;
